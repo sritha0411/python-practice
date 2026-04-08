@@ -1,10 +1,7 @@
-def  calculateSquare(n):
-    square=n*n
-    print(square)
-
-n=int(input())
-
-def main():
-    calculateSquare(n)
-
-main()
+def areaofcircle(r):
+    pi=3.14159
+    area=float(pi*r**2)
+    return area
+r=float(input())
+b=areaofcircle(r)
+print(round(b,2))
