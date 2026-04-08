@@ -1,8 +1,7 @@
-def calculateProduct(x,y,z):
-    product=x*y*z
-    return product
-x=float(input())
-y=float(input())
-z=float(input())
-result=calculateProduct(x,y,z)
-print(result)
+counter=int(input())
+def incrementGlobal(a):
+    a += 1
+    return a
+print(incrementGlobal(counter))
+counter=incrementGlobal(counter)
+print(counter)
