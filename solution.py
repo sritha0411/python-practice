@@ -1,7 +1,12 @@
-count=int(input())
-def decrementGlobal(a):
-    a -= 2
-    return a
-print(decrementGlobal(count))
-count=decrementGlobal(count)
-print(count)
+def outer(x):
+    y=x/2
+    m=inner(y)
+    return m
+
+def inner(x):
+    y=x+1
+    return y
+
+x=int(input())
+result=outer(x)
+print(result)
