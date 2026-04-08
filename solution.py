@@ -1,7 +1,7 @@
-counter=int(input())
-def incrementGlobal(a):
-    a += 1
+count=int(input())
+def decrementGlobal(a):
+    a -= 2
     return a
-print(incrementGlobal(counter))
-counter=incrementGlobal(counter)
-print(counter)
+print(decrementGlobal(count))
+count=decrementGlobal(count)
+print(count)
