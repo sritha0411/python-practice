@@ -1,12 +1,10 @@
-def outer(x):
-    y=x/2
-    m=inner(y)
-    return m
+def  calculateSquare(n):
+    square=n*n
+    print(square)
 
-def inner(x):
-    y=x+1
-    return y
+n=int(input())
 
-x=int(input())
-result=outer(x)
-print(result)
+def main():
+    calculateSquare(n)
+
+main()
